@@ -30,7 +30,7 @@ public class winiumcase1 {
 	
 	@Test
 	public void testNotePadApplication() throws InterruptedException {
-		//Thread.sleep(1000);
+		Thread.sleep(1000);
 		
 		driver.findElementByClassName("Scintilla").sendKeys("Esto es una prueba");
 		
