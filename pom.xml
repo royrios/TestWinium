@@ -27,7 +27,7 @@
 			</suiteXmlFiles>
 			<configuration>
                <skipTests>false</skipTests>
-               <testFailureIgnore>true</testFailureIgnore>
+               <testFailureIgnore>false</testFailureIgnore>
                <forkMode>once</forkMode>
            </configuration>
                
