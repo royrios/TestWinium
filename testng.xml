@@ -4,6 +4,8 @@
   <test name="Test">
   <classes>
       <class name="winiumcases.winiumcase1"/>
+      <class name="winiumcases.winiumcase2"/>
+      <class name="winiumcases.winiumcase3"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

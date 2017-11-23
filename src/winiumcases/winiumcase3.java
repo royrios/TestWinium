@@ -11,13 +11,13 @@ import org.testng.annotations.Test;
 
 
 
-public class winiumcase1 {
+public class winiumcase3 {
 	WiniumDriver driver = null;
 	
 	@BeforeClass
 	public void setUpEnvironment() throws IOException {
 		DesktopOptions options = new DesktopOptions();
-		options.setApplicationPath("C:\\Program Files\\Notepad++\\notepad++.exe");
+		options.setApplicationPath("C:\\Users\\Roy\\Documents\\proyectos visual EXE\\setup.exe");
 		
 		
 		try {
@@ -32,9 +32,9 @@ public class winiumcase1 {
 	public void testNotePadApplication() throws InterruptedException {
 		Thread.sleep(2000);
 		
-		driver.findElementByClassName("Scintilla").sendKeys("Esto es una prueba");
+		driver.findElementById("textBoxMyInput").sendKeys(" prueba para formulario ultra basico");
 		Thread.sleep(1000);
-		driver.findElementByClassName("ReBarWindow32").click();
+		driver.findElementById("btnOK").click();
 		
 		
 	}
